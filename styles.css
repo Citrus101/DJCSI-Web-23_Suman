@@ -1,0 +1,146 @@
+body{
+    margin:0px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding:1em 5em;
+    background-color: #3F17B1;
+    color:#F9F9FB ;
+
+}
+
+header img{
+    height: auto;
+    width: 10%;
+}
+
+ul{
+    list-style: none;
+    margin-top: 1em;
+    padding: 0px
+}
+
+header ul{
+    display: flex;
+    justify-content: space-between;
+    gap:5px;
+    width: 40%;
+}
+
+#body1{
+    position: relative;
+    display:flex;
+    justify-content: space-between;
+    padding: 10% 0px;
+    background-color: #3F17B1;
+    height: 50vh;
+    color:#F9F9FB ;
+}
+
+#body1 > div{
+    width: 22.5em;
+    font-size: larger;
+    padding-left: 5%
+    
+}
+
+#body1 img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    /* object-fit: contain; */
+    height: 75%;
+}
+
+#body2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 5em;
+    padding: 5em 0px;
+    background-color: #FCFBFF;
+}
+
+#body2 > .main{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+
+.body2-snippet{
+    display: flex;
+    height: auto;
+    width: 20em;
+    align-items: center;
+    gap: 1em;
+}
+
+.body2-snippet img{
+    width: 25%;
+    height: auto;
+}
+
+.body2-snippet.left{
+    text-align: right;
+    margin-left: 10em;
+}
+
+.body2-snippet.right{
+    margin-right: 10em;
+}
+
+#body3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 5em;
+    height: 80vh;
+}
+
+.profile{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30em;
+    margin: 5em 1em;;
+}
+
+#body3 > .main{
+    display:flex;
+    /* justify-content: space-between; */
+    width: 100%;
+    gap: 5em;;
+}
+.checked{
+    color:orange;
+}
+
+footer{
+    height: 40vh;
+    color: #F9F9FB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #3F17B1;
+    justify-content: center;
+
+}
+
+footer h1{
+    font-size: 3em;
+}
+
+footer > div{
+    display: flex;
+    justify-content: center;
+    gap: 10em;
+
+}
+
+.body2-snippet p,.profile p{
+    color: gray;
+}
